@@ -1,0 +1,24 @@
+-- --------------------------------------------------------------------------------
+-- Routine DDL
+-- Note: comments before and after the routine body will not be stored by the server
+-- --------------------------------------------------------------------------------
+DELIMITER $$
+
+CREATE PROCEDURE `balance` ( buyer VARCHAR(45),paid INT(11))
+BEGIN
+
+SELECT idbill_base INTO id,balance INTO remain
+FROM bill_base
+WHERE buyers_name = buyer AND total>=balance AND balance!=0
+ORDER BY idbill_base ASC
+LIMIT 0,1 
+;
+UPDATE bill_base
+SET
+balance=remain-paid
+WHERE
+idbill_base = id
+;
+
+
+END

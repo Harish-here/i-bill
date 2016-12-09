@@ -1,0 +1,267 @@
+@charset'uft-8';
+body{
+    font: 100%/1.2 sans-serif;
+	background-color: #ffffdd;
+	margin: 0;
+	padding: 0;
+}
+hr{
+    margin: 1px;
+    padding: 0px;
+}
+.buyersflex{
+    float: right;
+    border:solid 1px #000;
+width: 200px;
+border-left-width: 5px;
+border-top-width: 5px;
+border-radius: 5px;
+background-color: #6f6fff;
+clear: both;
+
+}
+h1{
+    font-family: monospace;
+}
+a img {
+    text-decoration: none;
+
+}
+.productdisplay{
+    
+    overflow-y: auto;
+    height: 270px;
+}
+
+th{
+    border-width: 1px;
+padding: 3px;
+border-style: solid;
+border-color: #666;
+background-color: #DEDEDE;
+border-bottom-color: #666;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-collapse: collapse;
+border-left-color: #666;
+border-left-style: solid;
+border-left-width: 0px;
+border-right-color: #666;
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: #666;
+border-top-style: solid;
+border-top-width: 0px;
+color: #333;
+font-family: verdana,sans-serif;
+font-size: 11px;
+padding-bottom: 3px;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 3px;
+border-collapse: collapse;
+
+    
+}
+.list{
+    text-align: center;
+    width:100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    
+}
+ a:hover,a:focus{
+    
+    color: #fff;
+    background-color: #0080ff;
+}
+.footer{
+    text-align: center;
+    font-style: italic;
+    display: block;
+        
+}
+.productlist{
+    float: right;
+    margin-right: 100px;
+    
+    text-align: center;
+    width: 200px;
+    height: auto;
+    border:solid 2px #000;
+}
+.displaycontent{
+    text-align: center;
+}
+.box{
+    margin: 2px;	
+    padding: 4px;
+    border:solid 1px #000;
+    border-radius: 5px;
+    font-family: sans-serif;
+    
+}ul{
+    margin: 0px;
+}
+li{
+    margin: 0px;
+    padding: 0px;
+}
+.para{
+    background-color: #c0c0c0;
+    padding: 2px;                                                   
+    border: solid 2px #000;
+    border-radius:5px;
+   
+    text-align: center;
+    width:200px;
+    float: left;
+}
+.para2{
+     background-color: #c0c0c0;
+    padding: 5px;
+    border: solid 2px #000;
+    border-radius:5px;
+    width: 250px;
+    text-align: center;
+}
+.header{
+    background-color: #0080ff;
+    padding: 3px;
+    border:solid 2px #000;
+    border-radius:3px;
+    text-align: center
+}
+
+.navigation{
+    color:#0080ff;
+    border:solid 2px #0080ff;
+    border-radius:3px;
+    padding: 5px;
+    text-align: center;
+    margin: 3px;
+}
+.total{
+    background-color:#ffff46;font-size: 20px;color: #0000ff;padding: 5px;border:solid 2px #000;border-radius: 4px;
+}
+.actionbutton{
+    padding: 4px;
+    color: #FFF;
+    background-color: #808080;
+    border:groove 1px #000;
+    border-radius: 4px;
+    
+}
+table{
+    column-fill: balance;
+    font-size:14px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.address{
+    width: 600;
+    border:solid 1px #000;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #ff80c0;
+    margin-top:4px;
+}
+.warning{
+    background-color: #ffff00;
+    color:#ff0000;
+    padding: 3px;
+    width:300px;
+    margin: 2px;
+    
+}
+.billflex{
+    width:400px;
+    border: solid 1px #0080ff;
+    height: auto;
+    text-align: center;
+    height: 360px;
+    overflow-y: auto;
+    font-size: larger;
+     background-color: #FFF;
+}
+.billflex_separate{
+    width:600px;
+    border: solid 1px #0080ff;
+    height: auto;
+    text-align: center;
+    height: 400px;
+    overflow-y: auto;
+    font-size: larger;
+     background-color: #FFF;
+}
+.salesflex{
+    text-align: center;
+    width:700px;
+    border: solid 1px #0080ff;
+    height: auto;
+    font-size: 15px;
+    background-color: #fff;
+    overflow-y: auto;
+    height: 400px;
+    margin: 5px;
+}
+.buyerflex{
+    border:solid 1px #000;
+    background-color: #c0c0c0;
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+}
+td{
+    padding: 0px;
+    text-align: center;
+    }
+    #btn {
+	background: -moz-linear-gradient(center top , #FFFFFF, #CCCCCC) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #AAAAAA;
+    color: #111111;
+    font-weight: bold;
+    padding: 3px 7px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+	cursor: pointer;
+        margin: 2px;
+}
+.add{
+    width:700px;
+    border:solid 1px #ff0080;
+    background-color: #ff80ff;
+    margin: 3px;
+}
+#center{
+    text-align: center;
+}
+.container{
+    width: auto;
+	
+	background-color: #ffffdd;
+	margin: 0 auto;
+        font-size: 15px;
+        padding: 0px;
+}
+.dueflex{
+    width:20%;
+    border: solid 1px #0080ff;
+    height: auto;
+    text-align: center;
+    height: 450px;
+    overflow-y: auto;
+    font-size: larger;
+     background-color: #FFF;
+     float: left;
+     margin: 10px;
+}
+textarea{
+    font-family: sans-serif
+}
